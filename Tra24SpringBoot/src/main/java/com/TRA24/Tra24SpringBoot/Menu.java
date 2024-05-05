@@ -15,7 +15,6 @@ import java.util.Stack;
 
 public class Menu {
 
-
     public Integer newInvoiceNo; // i used this to make Invoice No available for Items list
     public Scanner inputMain = new Scanner(System.in); //This is for back to Menu before going further
     public Scanner backToTheMainMenu = new Scanner(System.in); //This is for back to menu after create data in option
@@ -316,7 +315,7 @@ public class Menu {
                             throw new IllegalArgumentException("Unit price must be a positive number.");
                         }
 
-                        // If input is valid, break out of the loop
+                        // If input is valid, bgit reak out of the loop
                         break;
                     } catch (IllegalArgumentException e) {
                         System.out.println(e.getMessage());

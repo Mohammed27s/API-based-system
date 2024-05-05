@@ -11,4 +11,13 @@ public class APIContainer {
     public String login() {
         return "Welcome to the Login page";
     }
+
+    @GetMapping("/Start")
+
+    public String lunch(){
+
+        return "Welcome to the Menu";
+
+
+    }
 }
